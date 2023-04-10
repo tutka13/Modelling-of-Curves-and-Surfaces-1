@@ -1,0 +1,64 @@
+﻿<Window x:Class="B_splajn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:B_splajn"
+        mc:Ignorable="d"
+        Title="B-splajn" Height="700" Width="950">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Left" Height="660" VerticalAlignment="Top" Width="660" Cursor="Hand" MouseUp="g_MouseUp" MouseDown="g_MouseDown" MouseMove="g_MouseMove">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#ebeff5" Offset="1"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+        </Canvas>
+        <Rectangle HorizontalAlignment="Left" VerticalAlignment="Top" Height="660" Stroke="#ebeff5" Width="660"/>
+
+        <Label Content="Stupeň krivky: " HorizontalAlignment="Left" Margin="680,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="CurveDegreeTextBox" HorizontalAlignment="Left" Height="30" Margin="710,40,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="100" 
+                 BorderBrush="#FFB8B6B3" Foreground="Black" SelectionBrush="#FF857D60" TextAlignment="Center" FontSize="16"></TextBox>
+
+        <Button x:Name="DecreaseIter" Content="-" HorizontalAlignment="Left" Margin="680,40,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="White" BorderBrush="#FFB8B6B3" FontSize="16" Cursor="Hand" Click="DecreaseIter_Click"/>
+        <Button x:Name="IncreaseIter" Content="+" HorizontalAlignment="Left" Margin="810,40,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="White" BorderBrush="#FFB8B6B3" FontSize="16" Cursor="Hand" Click="IncreaseIter_Click"/>
+
+        <Label Content="Uzlová postupnosť: " HorizontalAlignment="Left" Margin="680,90,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="NodesTextBox" HorizontalAlignment="Left" Height="103" Margin="680,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" BorderBrush="DarkBlue" FontSize="16" 
+                 TextAlignment="Left" SelectionBrush="DarkBlue" KeyDown="Nodes_KeyDown"/>
+
+        <CheckBox x:Name="IsVisualised" Content="Vizualizácia" HorizontalAlignment="Left" Margin="680,250,0,0" VerticalAlignment="Top" FontSize="16" IsChecked="False"
+                  Checked="IsVisualised_Checked" Unchecked="IsVisualised_Unchecked"/>
+
+        <Label Name="ParameterT" Margin="715,320,0,0" Content="" FontSize="16" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Label Content="t = " HorizontalAlignment="Left" Margin="680,320,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+        <Slider Name="SliderT" IsSnapToTickEnabled ="True" Value="0.5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="680,285,0,0" Width="240" Height="36" Background="White" BorderBrush="#FFB8B6B3" Minimum="0" Maximum="1" TickFrequency="0.01" Cursor="Hand" PreviewMouseMove="SliderT_PreviewMouseMove"/>
+
+        <Label Content="Počet vrcholov n = " HorizontalAlignment="Left" Margin="680,360,0,0" VerticalAlignment="Top" Height="30" Width="155" FontSize="16"/>
+        <Label x:Name="PocetVrcholov"  Content="Počet vrcholov" HorizontalAlignment="Left" Margin="820,360,0,0" VerticalAlignment="Top" Height="30" Width="155" FontSize="16"/>
+
+        <Label Content="Počet uzlov m = " HorizontalAlignment="Left" Margin="680,390,0,0" VerticalAlignment="Top" Height="30" Width="125" FontSize="16"/>
+        <Label x:Name="PocetUzlov" Content="Počet uzlov" HorizontalAlignment="Left" Margin="800,390,0,0" VerticalAlignment="Top" Height="30" Width="155" FontSize="16"/>
+
+        <Label Content="m = n + p + 1" HorizontalAlignment="Left" Margin="680,419,0,0" VerticalAlignment="Top" Height="30" Width="155" FontSize="16"/>
+
+        <Label x:Name="mPocetUzlov" Content="4" HorizontalAlignment="Left" Margin="680,450,0,0" VerticalAlignment="Top" Height="30" Width="30" FontSize="16"/>
+        <Label Content=" = " HorizontalAlignment="Left" Margin="700,450,0,0" HorizontalContentAlignment="Left" VerticalAlignment="Top" Height="30" Width="25" FontSize="16"/>
+        <Label x:Name="nPocetVrcholov" Content="0" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="730,450,0,0" VerticalAlignment="Top" Height="30" Width="30" FontSize="16"/>
+        <Label Content=" + " HorizontalAlignment="Left" Margin="755,450,0,0" VerticalAlignment="Top" Height="30" Width="25" FontSize="16"/>
+        <Label x:Name="pStupenKrivky" Content="3" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="780,450,0,0" VerticalAlignment="Top" Height="30" Width="30" FontSize="16"/>
+        <Label Content=" + 1" HorizontalAlignment="Left" Margin="810,450,0,0" VerticalAlignment="Top" Height="30" Width="40" FontSize="16"/>
+
+        <Label Content="Počet vzoriek: " HorizontalAlignment="Left" Margin="680,490,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="LODTextBox" HorizontalAlignment="Left" Height="30" Margin="710,530,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="100" 
+                 BorderBrush="#FFB8B6B3" Foreground="Black" SelectionBrush="#FF857D60" TextAlignment="Center" FontSize="16"></TextBox>
+
+        <Button x:Name="LODDecreaseIter" Content="-" HorizontalAlignment="Left" Margin="680,530,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="White" BorderBrush="#FFB8B6B3" FontSize="16" Cursor="Hand" Click="LODDecreaseIter_Click"/>
+        <Button x:Name="LODIncreaseIter" Content="+" HorizontalAlignment="Left" Margin="810,530,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="White" BorderBrush="#FFB8B6B3" FontSize="16" Cursor="Hand" Click="LODIncreaseIter_Click"/>
+
+        <Button x:Name="Reset" Content="Reset" HorizontalAlignment="Left" Margin="673,618,0,0" VerticalAlignment="Top" 
+                    Width="250" Height="30" Background="White" BorderBrush="DarkBlue" FontSize="16" Click="Reset_Click"/>
+    </Grid>
+</Window>
