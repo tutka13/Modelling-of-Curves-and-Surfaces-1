@@ -1,0 +1,34 @@
+﻿<Window x:Class="BezierovoOrezavanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BezierovoOrezavanie"
+        mc:Ignorable="d"
+        Title="Bézierovo orezávanie" Height="470" Width="820">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Left" Height="400" VerticalAlignment="Bottom" Width="600">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#ebeff5" Offset="1"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+        </Canvas>
+        <Label Content="Zadaj polynóm: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="Polynom" Text="1 - 0.5t^2 + 0.04166t^4 - 0.00138t^6 + 0.00002t^8" HorizontalAlignment="Left" Height="23" Margin="135,15,0,0" VerticalAlignment="Top" Width="651" BorderBrush="DarkBlue" FontSize="14" 
+                 TextAlignment="Left" SelectionBrush="DarkBlue"/>
+        <Label Content="Na intervale: " HorizontalAlignment="Left" Margin="610,46,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="[ " HorizontalAlignment="Left" Margin="660,86,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+        <TextBox x:Name="Interval" Text="-5 ; 5" HorizontalAlignment="Left" Height="23" Margin="675,91,0,0" VerticalAlignment="Top" Width="60" BorderBrush="DarkBlue" FontSize="14" 
+                 TextAlignment="Center" SelectionBrush="DarkBlue"/>
+
+        <Label Content=" ]" HorizontalAlignment="Left" Margin="730,86,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="FindRoots" Content="Nájdi korene" HorizontalAlignment="Left" Margin="610,136,0,0" VerticalAlignment="Top" 
+                    Width="180" Height="30" Background="White" BorderBrush="DarkBlue" FontSize="16" Click="FindRoots_Click"/>
+        <Button x:Name="Reset" Content="Reset" HorizontalAlignment="Left" Margin="610,390,0,0" VerticalAlignment="Top" 
+                    Width="180" Height="30" Background="White" BorderBrush="DarkBlue" FontSize="16" Click="Reset_Click"/>
+        <Label Name="Roots" HorizontalAlignment="Left" Height="180" Margin="610,188,0,0" VerticalAlignment="Top" Width="180" BorderBrush="DarkBlue" FontSize="14"/>
+    </Grid>
+</Window>

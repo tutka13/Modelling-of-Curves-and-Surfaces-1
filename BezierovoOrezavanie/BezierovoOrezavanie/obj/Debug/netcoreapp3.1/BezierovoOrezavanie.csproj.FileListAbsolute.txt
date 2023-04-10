@@ -1,0 +1,40 @@
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.exe
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.deps.json
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.runtimeconfig.json
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.runtimeconfig.dev.json
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.dll
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.pdb
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.csproj.AssemblyReference.cache
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie_MarkupCompile.cache
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie_MarkupCompile.lref
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.g.resources
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.AssemblyInfoInputs.cache
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.AssemblyInfo.cs
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.csproj.CoreCompileInputs.cache
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.dll
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.pdb
+C:\Users\tutko\Desktop\1ZS\MKP\programovacie ulohy\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.genruntimeconfig.cache
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.exe
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.deps.json
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.runtimeconfig.json
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.runtimeconfig.dev.json
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.dll
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\bin\Debug\netcoreapp3.1\BezierovoOrezavanie.pdb
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.csproj.AssemblyReference.cache
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie_MarkupCompile.cache
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie_MarkupCompile.lref
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.g.resources
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.AssemblyInfoInputs.cache
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.AssemblyInfo.cs
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.csproj.CoreCompileInputs.cache
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.dll
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.pdb
+C:\Users\tutko\Desktop\1ZS\MKP\PU2\BezierovoOrezavanie\BezierovoOrezavanie\obj\Debug\netcoreapp3.1\BezierovoOrezavanie.genruntimeconfig.cache
